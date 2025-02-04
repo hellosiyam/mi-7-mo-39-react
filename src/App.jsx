@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './Counter'
+import Team from './Team'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
   }
   return (
     <>
+      <Team></Team>
       <Counter></Counter>
       <h1>React</h1>
       <button onClick={alertBtn}>On click </button>
