@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './Counter'
 import Team from './Team'
+import Users from './Users'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
   }
   return (
     <>
+      <Users></Users>
       <Team></Team>
       <Counter></Counter>
       <h1>React</h1>
