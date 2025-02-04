@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './Counter'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
   }
   return (
     <>
+      <Counter></Counter>
       <h1>React</h1>
       <button onClick={alertBtn}>On click </button>
       <button onClick={() => {alert('On click Btn 2')}}>On click Btn 2</button>
