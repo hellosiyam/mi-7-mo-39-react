@@ -15,7 +15,7 @@ export default function Friends() {
         <div className='box'>
             <h2>Friends List : {friends.length}</h2>
             {
-                friends.map(friend => <Friend friend={friend}></Friend>)
+                friends.map(friend => <Friend friend = {friend}></Friend>)
             }
         </div>
     )
